@@ -1,0 +1,88 @@
+baseURL = "https://wukaiying.github.io"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "whiteplain"
+# Copyright notice. This is displayer in the footer.
+copyright = "&copy; Copyright 2017 Your name"
+
+[params]
+  # whether to use CDN or local file for fontawesome
+  #useCDN = false
+  # whether to include external sharing scripts and icons for twitter, facebook and co.
+  #showShareIcons = false
+  # Date format
+  #dateFormat = "January 2, 2006"
+
+# This is displayer in About page.
+[params.author]
+  name = "Your name"
+  # Gravatar or Abatar image
+  gravatar = "Gravatar email or MD5 Hash"
+  #avatar = "/path/to/avatar"
+
+  twitter = "Twitter username"
+  facebook = "Facebook username"
+  googleplus = "Googleplus username"
+  instagram = "Instagram username"
+  tumblr = "Tumblr username"
+  flickr = "Flickr username"
+  reddit = "Reddit username"
+  linkedin = "Linkedin username"
+  slideshare = "Slideshare username"
+  github = "Github username"
+  gitlab = "Gitlab username"
+  bitbucket = "Bitbucket username"
+  stackoverflow = "Stackoverflow username"
+  jsfiddle = "Jsfiddle username"
+  codepen = "Codepen username"
+  deviantart = "Deviantart username"
+  behance = "Behance username"
+  dribbble = "Dribbble username"
+  wordpress = "Wordpress username"
+  medium = "Medium username"
+  foursquare = "Foursquare username"
+  xing = "Xing username"
+  quora = "Quora username"
+  youtube = "Youtube username"
+  vimeo = "Vimeo username"
+  whatsapp = "Whatsapp username"
+  skype = "Skype username"
+  snapchat = "Snapchat username"
+  pinterest = "Pinterest username"
+  telegram = "Telegram username"
+  vine = "Vine username"
+  email = "Your email"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+# Header Menu
+[[menu.main]]
+  name = "Categories"
+  identifier = "categories"
+  url = "/categories/"
+  weight = 1
+[[menu.main]]
+  name = "Tags"
+  identifier = "tags"
+  url = "/tags/"
+  weight = 2
+[[menu.main]]
+  name = "Archives"
+  identifier = "archives"
+  url = "/archives/"
+  weight = 3
+[[menu.main]]
+  name = "About"
+  identifier = "about"
+  url = "/about/"
+  weight = 4
+
+# Footer Menu
+[[menu.footer]]
+  name = "About"
+  weight = 1
+  identifier = "about"
+  url = "/about/"
